@@ -163,7 +163,7 @@ body {
 .reveal .overlay .lower-third {
   background: #000000;
   bottom: 0;
-  height: 30px;
+  height: 80px;
   left: 0;
   position: fixed;
   width: 100%;
@@ -175,6 +175,11 @@ body {
   transform: translate(20%, -70%) rotate(3deg);
 }
 
+.reveal .lower-third h2 {
+  float: right;
+  font-size: 60px;
+  padding: 10px 10px 0 0;
+}
 
 /*********************************************
  * HIDDEN
